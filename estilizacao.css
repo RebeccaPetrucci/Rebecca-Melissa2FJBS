@@ -5,4 +5,11 @@
 
 .cabecalho{
 background-color: #424E61;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.lista-cabecalho{
+    color: white;
 }
