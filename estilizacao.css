@@ -2,45 +2,46 @@
     margin: 0;
     padding: 0;
 }
-
 .cabecalho{
-background-color: #424E61;
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
-
-.lista-item{
-    display: inline-block;
-    padding:o 12px;
-    font-size: 23px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-
-}
-
-.primeira-parte{
-background-image: linear-gradient(#424E61,#4EBFE9);
-    height: 500px;
-    color:white;
-    padding-top: 100px:
-}
-.escola{
-    padding: 24px 0;
-}
-    .primeiro-paragrafo{
-    padding:15px;
-    font-size: 20px;
+    background-color: #424E61;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     }
     
-    .segundo-paragrafo{
-        padding: 15px 0;
-        font-size: 20px;
+    .lista-item{
+        display: inline-block;
+        padding:o 12px;
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    
     }
-    .quem-somos{
+    
+    .primeira-parte{
+    background-image: linear-gradient(#424E61,#4EBFE9);
+        height: 500px;
+        color:white;
+        padding: 100px:
+        justify-content: center;
+        align-items: center;
+    }
+    .escola{
         padding: 24px 0;
     }
-}
-
-.img{
-    15%
-}
+        .primeiro-paragrafo{
+        padding:15px;
+        font-size: 20px;
+        }
+        
+        .segundo-paragrafo{
+            padding: 15px 0;
+            font-size: 20px;
+        }
+        .quem-somos{
+            padding: 24px 0;
+        }
+    }
+    
+    .foto-estudante{
+        width: 35%
+    }
