@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
-    <title>meu primeiro site</title>
+    <link rel="stylesheet" href="estilizacao.css">
+    <title>alura start</title>
 </head>
 <body>
-    <h1>titulo 1 (tema) </h1>
-    <h2>titulo 2 (subtitulo) </h2>
-    <h3>titulo 3 (subtitulo 2) </h3>
-    <h4>titulo 4 (subtitulo 3) </h4>
-    <h5>titulo 5 (subtitulo 4) </h5>
-    <h6>titulo 6 (subtitulo 5) </h6>
-
-
-    <p>as tags h1-h6 sao usadas para escrevermos titulos</p>
-
-    <table> border="1"
-        <td>primeira linha e primeira coluna</td>
-        <td>primeira linha e segunda coluna</td>
-        <td>primeira linha e terceira coluna</td>
-    </table>
+    <header class="cabecalho">
+      <img src="alurastart logo.png" alt="Logo">
+         <ul class="lista-cabecalho">
+           <li class="item-lista-cabecalho">escola</li>
+           <li class="item-lista-cabecalho">estudantes</li>
+         </ul>
+    </header>
+    <section class="primeira-parte">
+    <div class="texto"><h1 class="titulo">sobre a escola</h1>
+    <p class="primeiro-paragrafo"> 
+      A  escola alura foi fundada em 2010 com objetivo de ensinar o pensamento computacional atravez da programação</p>
+    </p>
+    <p class="segundo-paragrafo">
+      A turma mais famosa é a segunda serie f. Uma turma divertida e engajada, as vezes,um pouco bagunceira, mas que entrega exelentes resultados!
+    </p>
+  </div>
+  <div class="imagem">
+    <img class="foto-estudante" src="Kindergarten student-amico.png" alt="estudante">
+  </div>
+    </section>
+    <section class="estudantes">
+      <h2 class="titulo-estudante">
+          quem sao nossos estudantes
+        </h2>
+        <div class="estudante-div">
+        <img src="dora.jpg" alt="" class="estudante">
+        <h3 class="estudante">
+            NOME DO ESTUDANTE
+        </h3>
+        <img src="instagram.png" alt="" class="icone">
+        <img src="instagram.png" alt="" class="icone">
+        <img src="twitter.png" alt="" class="icone">
+        </div>
+        </section>
+    </section>
+  </section>
 </body>
 </html>
