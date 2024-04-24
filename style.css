@@ -1,58 +1,50 @@
-*<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'):
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-{
-
+*{
     margin: 0;
     padding: 0;
 }
 
 body{
-    font-family:'poppins';
+    font-family: 'poppins';
 }
-.cabecalho{
-    background-color: #424E61;
+
+.cabecario{
+    background-color: #424e61;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    }
-    
-    .lista-item{
-        display: inline-block;
-        padding:o 12px;
-        font-size: 23px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif
-    
-    }
-    
-    .primeira-parte{
-    background-image: linear-gradient(#424E61,#4EBFE9);
-        height: 500px;
-        color:white;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        display: flex;
-        padding: 100px:
-        
-    }
-    .escola{
-        padding: 24px 0;
-    }
-        .primeiro-paragrafo{
-        padding:15px;
-        font-size: 20px;
-        }
-        
-        .segundo-paragrafo{
-            padding: 15px 0;
-            font-size: 20px;
-        }
-        .quem-somos{
-            padding: 24px 0;
-        }
-    }
-    
-    .foto-estudante{
-        width: 35%;
-    }
+    padding: 24px 0;
+}
+
+.cabecalho{
+    color: white;
+    display: inline-block;
+}
+
+.primeiraparte{
+    background-image: linear-gradient(#424e61,#4ebfe9);
+    height: 500px;
+    color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.escola{
+    padding: 15px 0;
+    font-size: 20px;
+}
+.primeiroparagrafo{
+    padding: 15px 0;
+}
+.segundoparagrafo{
+    padding: 15px 0;
+}
+.quemsomos{
+    padding: 24px 0;
+}
+.imagem{
+    width: 35%;
+}
